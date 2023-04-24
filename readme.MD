@@ -26,9 +26,11 @@ To deploy the RageDogs NFT collection on a testnet, follow these steps:
 5. Run `npx hardhat deploy --network <network>` to deploy the NFT contract to your desired network. Replace `<network>` with the name of the network you wish to deploy to.
 
 The NFT collection is currently deployed on the following testnets:
+
  ![Example Image](./demo/nft-token-on-sepolia.png)
 - Sepolia: `0x8F09186C19849aE49E03f9bEED89314C26996eFF`
-![Example Image](./demo/nft-token-on-goerli.png){:width="500px" height="300px"}
+
+![Example Image](./demo/nft-token-on-goerli.png)
 - Goerli: `0xba2e95c58Ce52d62c3831f971F624567175E0e0a`
 
 ## Usage
