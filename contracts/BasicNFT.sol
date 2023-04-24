@@ -9,9 +9,7 @@ contract BasicNFT is ERC721{
     string public constant TOKEN_URI =
         "ipfs://bafybeig37ioir76s7mg5oobetncojcm3c3hxasyd4rvid4jqhy4gkaheg4/?filename=0-PUG.json";
 
-    constructor() ERC721("Dogie", "DOG") {
-
-    }
+    constructor() ERC721("RageDog", "RGD") {}
 
     function mintNft() public returns(uint256){
         _safeMint(msg.sender, s_tokenCounter);
